@@ -1,0 +1,28 @@
+# Salesforce CLI and local auth (never commit)
+.sf/
+.sfdx/
+.localdevserver/
+*.key
+*.pem
+*authurl*
+*auth-url*
+.env
+.env.*
+deploy-options.json
+
+# Node / LWC tests
+node_modules/
+coverage/
+.eslintcache
+
+# IDE and OS
+.vscode/
+.idea/
+*.log
+.DS_Store
+Thumbs.db
+
+# Retrieved junk
+**/jsconfig.json
+**/.forceignore.bak
+delta/

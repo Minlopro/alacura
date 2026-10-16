@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Feature manifest. Copy to manifest/features/<feature-name>-package.xml (example: intake-form-package.xml).
+  Lists EVERY component the feature needs to deploy, named explicitly (no wildcards).
+  Update it in the same commit as any change to the feature. Pair: docs/features/<feature-name>/README.md
+  Deploy and validate commands are in docs/features/README.md.
+-->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>ACR_Feature_Controller</members>
+        <members>ACR_Feature_ControllerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>acrFeatureForm</members>
+        <name>LightningComponentBundle</name>
+    </types>
+    <types>
+        <members>Account.ACR_Field__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>ACR_Feature_Flow</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>ACR_Feature_User</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>67.0</version>
+</Package>

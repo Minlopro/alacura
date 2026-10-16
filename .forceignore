@@ -1,0 +1,10 @@
+# Files and folders never retrieved or deployed
+package.xml
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**
+# Org-specific settings we do not own; remove lines as the project takes ownership
+**/profiles/Admin.profile-meta.xml
+**/settings/
+**/appMenus/
+**/connectedApps/

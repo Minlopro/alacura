@@ -1,0 +1,9 @@
+{
+  "packageDirectories": [
+    { "path": "force-app", "default": true }
+  ],
+  "name": "ACR-project-name",
+  "namespace": "",
+  "sfdcLoginUrl": "https://test.salesforce.com",
+  "sourceApiVersion": "67.0"
+}
